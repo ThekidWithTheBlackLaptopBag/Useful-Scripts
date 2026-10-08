@@ -1,0 +1,3 @@
+#For Gentoo
+#Link to origin repository
+https://github.com/slchris/hyprland-dotfiles.git
