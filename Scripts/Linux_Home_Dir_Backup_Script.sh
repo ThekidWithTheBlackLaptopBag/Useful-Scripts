@@ -15,7 +15,7 @@ function total_directories {
         find $1 -type d | wc -l
 }
 #Dumps home directory to a .tar file and writes to an error log if failed
-tar -czvf $output $input 2>>/tmp/Linux_Home_Dir_Backup_Script-ErrorLog.txt #Create dump and write to an error log if failed
+tar -czvf $output $input 2>>/tmp/Linux_Home_Dir_Backup_Script-ErrorLog.txt
 echo -n "Files to be included:"
 total_files $input
 echo -n "Directories to be included:"
